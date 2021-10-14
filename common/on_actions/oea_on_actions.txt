@@ -1,0 +1,243 @@
+on_actions = {
+	 on_startup = {
+	 	effect = {
+	 		MSK = {
+				create_corps_commander = {
+					name = "Celica"
+					picture = "Celica.dds"
+					traits = {
+						war_hero
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					#id = 7005
+				}
+				create_corps_commander = {
+					name = "Volemia"
+					picture = "Volemia.dds"
+					traits = {
+						panzer_leader
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					#id = 7033
+				}
+				create_corps_commander = {
+					name = "Corrin"
+					picture = "Corrin.dds"
+					traits = {
+						commando
+						infantry_leader
+					}
+					skill = 4
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					#id = 7019
+				}
+				create_corps_commander = {
+					name = "Velvet Crowe"
+					picture = "Velvet_Crowe.dds"
+					skill = 1
+					attack_skill = 2
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					traits = {
+						commando
+						infantry_leader
+						aggressive_assaulter
+						offensive_doctrine
+					}
+				}
+	 		}
+			NOV = {
+				create_corps_commander = {
+					name = "Valkyrie"
+					picture = "land_01.dds"
+					traits = {
+						war_hero
+						commando
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					#id = 7005
+				}
+				create_corps_commander = {
+					name = "Olga"
+					picture = "land_02.dds"
+					traits = {
+						infantry_leader
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					#id = 7033
+				}
+				create_corps_commander = {
+					name = "Alexandra Nevskaya"
+					picture = "land_03.dds"
+					traits = {
+						panzer_leader
+						aggressive_assaulter
+						offensive_doctrine
+					}
+					skill = 4
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					#id = 7019
+				}
+	 		}
+			TVE = {
+				create_corps_commander = {
+					name = "Azura Light"
+					picture = "land_01.dds"
+					traits = {
+						infantry_leader
+						commando
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					#id = 7005
+				}
+				create_corps_commander = {
+					name = "Sonia"
+					picture = "land_02.dds"
+					traits = {
+						panzer_leader
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					#id = 7033
+				}
+				create_corps_commander = {
+					name = "Vladislava"
+					picture = "land_03.dds"
+					traits = {
+						aggressive_assaulter
+						offensive_doctrine
+					}
+					skill = 4
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					#id = 7019
+				}
+	 		}
+			SUZ = {
+				create_corps_commander = {
+					name = "Yaroloka"
+					picture = "land_01.dds"
+					traits = {
+						panzer_leader
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					#id = 7005
+				}
+				create_corps_commander = {
+					name = "Sinon"
+					picture = "land_02.dds"
+					traits = {
+						infantry_leader
+						commando
+						bearer_of_artillery
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					#id = 7033
+				}
+				create_corps_commander = {
+					name = "Svatlana"
+					picture = "land_03.dds"
+					traits = {
+						aggressive_assaulter
+						offensive_doctrine
+					}
+					skill = 4
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					#id = 7019
+				}
+	 		}
+			YAR = {
+				create_corps_commander = {
+					name = "Ekaterina"
+					picture = "land_01.dds"
+					traits = {
+						panzer_leader
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					#id = 7005
+				}
+				create_corps_commander = {
+					name = "Azura Dark"
+					picture = "land_02.dds"
+					traits = {
+						infantry_leader
+						aggressive_assaulter
+						offensive_doctrine
+					}
+					skill = 2
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					#id = 7033
+				}
+				create_corps_commander = {
+					name = "Nina"
+					picture = "land_03.dds"
+					traits = {
+						commando
+					}
+					skill = 4
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 4
+					#id = 7019
+				}
+	 		}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				add_ideas = player_hidden_bonus
+			}
+		}
+	}
+}
