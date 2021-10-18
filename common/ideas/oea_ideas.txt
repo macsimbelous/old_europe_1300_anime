@@ -12,12 +12,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				conscription = 0.02
-				political_power_gain = 0.5
+				conscription = 0.05
+				political_power_gain = 1
 				#political_power_factor = 0.5
 				industrial_capacity_factory = 1
 				industrial_capacity_dockyard = 1
-				production_speed_buildings_factor = 0.2
+				production_speed_buildings_factor = 0.5
 				#weekly_manpower = 100000
 			}
 		}
